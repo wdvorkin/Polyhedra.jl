@@ -100,7 +100,7 @@ julia> hr.b
 julia> vr = vrep(poly)
 julia> typeof(vr)
 Polyhedra.LiftedVRepresentation{2,Rational{BigInt}}
-julia> vr = MixedMatVRep(vrep)
+julia> vr = MixedMatVRep(vr)
 julia> typeof(vr)
 Polyhedra.MixedMatVRep{2,Rational{BigInt}}
 julia> vr.V
